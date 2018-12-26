@@ -1,909 +1,909 @@
 {
   "rasa_nlu_data": {
-    "lookup_tables": [],
+    "regex_features": [],
     "common_examples": [
       {
-        "text": "Bye",
-        "intent": "bye"
+        "intent": "bye",
+        "text": "Bye"
       },
       {
-        "text": "Goodbye",
-        "intent": "bye"
+        "intent": "bye",
+        "text": "Goodbye"
       },
       {
-        "text": "See you later",
-        "intent": "bye"
+        "intent": "bye",
+        "text": "See you later"
       },
       {
-        "text": "Bye bot",
-        "intent": "bye"
+        "intent": "bye",
+        "text": "Bye bot"
       },
       {
-        "text": "Goodbye friend",
-        "intent": "bye"
+        "intent": "bye",
+        "text": "Goodbye friend"
       },
       {
-        "text": "bye",
-        "intent": "bye"
+        "intent": "bye",
+        "text": "bye"
       },
       {
-        "text": "bye for now",
-        "intent": "bye"
+        "intent": "bye",
+        "text": "bye for now"
       },
       {
-        "text": "catch you later",
-        "intent": "bye"
+        "intent": "bye",
+        "text": "catch you later"
       },
       {
-        "text": "gotta go",
-        "intent": "bye"
+        "intent": "bye",
+        "text": "gotta go"
       },
       {
-        "text": "See you",
-        "intent": "bye"
+        "intent": "bye",
+        "text": "See you"
       },
       {
-        "text": "goodnight",
-        "intent": "bye"
+        "intent": "bye",
+        "text": "goodnight"
       },
       {
-        "text": "have a nice day",
-        "intent": "bye"
+        "intent": "bye",
+        "text": "have a nice day"
       },
       {
-        "text": "i'm off",
-        "intent": "bye"
+        "intent": "bye",
+        "text": "i'm off"
       },
       {
-        "text": "see you later alligator",
-        "intent": "bye"
+        "intent": "bye",
+        "text": "see you later alligator"
       },
       {
-        "text": "we'll speak soon",
-        "intent": "bye"
+        "intent": "bye",
+        "text": "we'll speak soon"
       },
       {
-        "text": "Hi",
-        "intent": "greet"
+        "intent": "greet",
+        "text": "Hi"
       },
       {
-        "text": "Hey",
-        "intent": "greet"
+        "intent": "greet",
+        "text": "Hey"
       },
       {
-        "text": "Hi bot",
-        "intent": "greet"
+        "intent": "greet",
+        "text": "Hi bot"
       },
       {
-        "text": "Hey bot",
-        "intent": "greet"
+        "intent": "greet",
+        "text": "Hey bot"
       },
       {
-        "text": "Hello",
-        "intent": "greet"
+        "intent": "greet",
+        "text": "Hello"
       },
       {
-        "text": "Good morning",
-        "intent": "greet"
+        "intent": "greet",
+        "text": "Good morning"
       },
       {
-        "text": "hi again",
-        "intent": "greet"
+        "intent": "greet",
+        "text": "hi again"
       },
       {
-        "text": "hi folks",
-        "intent": "greet"
+        "intent": "greet",
+        "text": "hi folks"
       },
       {
-        "text": "hi Mister",
-        "intent": "greet"
+        "intent": "greet",
+        "text": "hi Mister"
       },
       {
-        "text": "hi pal!",
-        "intent": "greet"
+        "intent": "greet",
+        "text": "hi pal!"
       },
       {
-        "text": "hi there",
-        "intent": "greet"
+        "intent": "greet",
+        "text": "hi there"
       },
       {
-        "text": "greetings",
-        "intent": "greet"
+        "intent": "greet",
+        "text": "greetings"
       },
       {
-        "text": "hello everybody",
-        "intent": "greet"
+        "intent": "greet",
+        "text": "hello everybody"
       },
       {
-        "text": "hello is anybody there",
-        "intent": "greet"
+        "intent": "greet",
+        "text": "hello is anybody there"
       },
       {
-        "text": "hello robot",
-        "intent": "greet"
+        "intent": "greet",
+        "text": "hello robot"
       },
       {
-        "text": "Thanks",
-        "intent": "thank"
+        "intent": "thank",
+        "text": "Thanks"
       },
       {
-        "text": "Thank you",
-        "intent": "thank"
+        "intent": "thank",
+        "text": "Thank you"
       },
       {
-        "text": "Thank you so much",
-        "intent": "thank"
+        "intent": "thank",
+        "text": "Thank you so much"
       },
       {
-        "text": "Thanks bot",
-        "intent": "thank"
+        "intent": "thank",
+        "text": "Thanks bot"
       },
       {
-        "text": "Thanks for that",
-        "intent": "thank"
+        "intent": "thank",
+        "text": "Thanks for that"
       },
       {
-        "text": "cheers",
-        "intent": "thank"
+        "intent": "thank",
+        "text": "cheers"
       },
       {
-        "text": "cheers bro",
-        "intent": "thank"
+        "intent": "thank",
+        "text": "cheers bro"
       },
       {
-        "text": "ok thanks!",
-        "intent": "thank"
+        "intent": "thank",
+        "text": "ok thanks!"
       },
       {
-        "text": "perfect thank you",
-        "intent": "thank"
+        "intent": "thank",
+        "text": "perfect thank you"
       },
       {
-        "text": "thanks a bunch for everything",
-        "intent": "thank"
+        "intent": "thank",
+        "text": "thanks a bunch for everything"
       },
       {
-        "text": "thanks for the help",
-        "intent": "thank"
+        "intent": "thank",
+        "text": "thanks for the help"
       },
       {
-        "text": "thanks a lot",
-        "intent": "thank"
+        "intent": "thank",
+        "text": "thanks a lot"
       },
       {
-        "text": "amazing, thanks",
-        "intent": "thank"
+        "intent": "thank",
+        "text": "amazing, thanks"
       },
       {
-        "text": "cool, thanks",
-        "intent": "thank"
+        "intent": "thank",
+        "text": "cool, thanks"
       },
       {
-        "text": "cool thank you",
-        "intent": "thank"
+        "intent": "thank",
+        "text": "cool thank you"
       },
       {
-        "text": "yes",
-        "intent": "affirm"
+        "intent": "affirm",
+        "text": "yes"
       },
       {
-        "text": "yes sure",
-        "intent": "affirm"
+        "intent": "affirm",
+        "text": "yes sure"
       },
       {
-        "text": "absolutely",
-        "intent": "affirm"
+        "intent": "affirm",
+        "text": "absolutely"
       },
       {
-        "text": "for sure",
-        "intent": "affirm"
+        "intent": "affirm",
+        "text": "for sure"
       },
       {
-        "text": "yes yes yes",
-        "intent": "affirm"
+        "intent": "affirm",
+        "text": "yes yes yes"
       },
       {
-        "text": "definitely",
-        "intent": "affirm"
+        "intent": "affirm",
+        "text": "definitely"
       },
       {
+        "intent": "name",
         "entities": [
           {
             "value": "Juste",
+            "start": 11,
             "end": 16,
-            "entity": "name",
-            "start": 11
+            "entity": "name"
           }
         ],
-        "text": "My name is Juste",
-        "intent": "name"
+        "text": "My name is Juste"
       },
       {
+        "intent": "name",
         "entities": [
           {
             "value": "Josh",
+            "start": 5,
             "end": 9,
-            "entity": "name",
-            "start": 5
+            "entity": "name"
           }
         ],
-        "text": "I am Josh",
-        "intent": "name"
+        "text": "I am Josh"
       },
       {
+        "intent": "name",
         "entities": [
           {
             "value": "Lucy",
+            "start": 4,
             "end": 8,
-            "entity": "name",
-            "start": 4
+            "entity": "name"
           }
         ],
-        "text": "I'm Lucy",
-        "intent": "name"
+        "text": "I'm Lucy"
       },
       {
+        "intent": "name",
         "entities": [
           {
             "value": "Greg",
+            "start": 15,
             "end": 19,
-            "entity": "name",
-            "start": 15
+            "entity": "name"
           }
         ],
-        "text": "People call me Greg",
-        "intent": "name"
+        "text": "People call me Greg"
       },
       {
+        "intent": "name",
         "entities": [
           {
             "value": "David",
+            "start": 5,
             "end": 10,
-            "entity": "name",
-            "start": 5
+            "entity": "name"
           }
         ],
-        "text": "It's David",
-        "intent": "name"
+        "text": "It's David"
       },
       {
+        "intent": "name",
         "entities": [
           {
             "value": "Amy",
+            "start": 23,
             "end": 26,
-            "entity": "name",
-            "start": 23
+            "entity": "name"
           }
         ],
-        "text": "Usually people call me Amy",
-        "intent": "name"
+        "text": "Usually people call me Amy"
       },
       {
+        "intent": "name",
         "entities": [
           {
             "value": "John",
+            "start": 11,
             "end": 15,
-            "entity": "name",
-            "start": 11
+            "entity": "name"
           }
         ],
-        "text": "My name is John",
-        "intent": "name"
+        "text": "My name is John"
       },
       {
+        "intent": "name",
         "entities": [
           {
             "value": "Sam",
+            "start": 16,
             "end": 19,
-            "entity": "name",
-            "start": 16
+            "entity": "name"
           }
         ],
-        "text": "You can call me Sam",
-        "intent": "name"
+        "text": "You can call me Sam"
       },
       {
+        "intent": "name",
         "entities": [
           {
             "value": "Linda",
+            "start": 15,
             "end": 20,
-            "entity": "name",
-            "start": 15
+            "entity": "name"
           }
         ],
-        "text": "Please call me Linda",
-        "intent": "name"
+        "text": "Please call me Linda"
       },
       {
+        "intent": "name",
         "entities": [
           {
             "value": "Tom",
+            "start": 13,
             "end": 16,
-            "entity": "name",
-            "start": 13
+            "entity": "name"
           }
         ],
-        "text": "Name name is Tom",
-        "intent": "name"
+        "text": "Name name is Tom"
       },
       {
+        "intent": "name",
         "entities": [
           {
             "value": "Richard",
+            "start": 5,
             "end": 12,
-            "entity": "name",
-            "start": 5
+            "entity": "name"
           }
         ],
-        "text": "I am Richard",
-        "intent": "name"
+        "text": "I am Richard"
       },
       {
+        "intent": "name",
         "entities": [
           {
             "value": "Tracy",
+            "start": 4,
             "end": 9,
-            "entity": "name",
-            "start": 4
+            "entity": "name"
           }
         ],
-        "text": "I'm Tracy",
-        "intent": "name"
+        "text": "I'm Tracy"
       },
       {
+        "intent": "name",
         "entities": [
           {
             "value": "Sally",
+            "start": 8,
             "end": 13,
-            "entity": "name",
-            "start": 8
+            "entity": "name"
           }
         ],
-        "text": "Call me Sally",
-        "intent": "name"
+        "text": "Call me Sally"
       },
       {
+        "intent": "name",
         "entities": [
           {
             "value": "Philipp",
+            "start": 5,
             "end": 12,
-            "entity": "name",
-            "start": 5
+            "entity": "name"
           }
         ],
-        "text": "I am Philipp",
-        "intent": "name"
+        "text": "I am Philipp"
       },
       {
+        "intent": "name",
         "entities": [
           {
             "value": "Charlie",
+            "start": 5,
             "end": 12,
-            "entity": "name",
-            "start": 5
+            "entity": "name"
           }
         ],
-        "text": "I am Charlie",
-        "intent": "name"
+        "text": "I am Charlie"
       },
       {
-        "text": "I want to book",
-        "intent": "book_appt"
+        "intent": "book_appt",
+        "text": "I want to book"
       },
       {
-        "text": "I want to book",
-        "intent": "book_appt"
+        "intent": "book_appt",
+        "text": "I want to book"
       },
       {
-        "text": "Book appt",
-        "intent": "book_appt"
+        "intent": "book_appt",
+        "text": "Book appt"
       },
       {
-        "text": "Schedule appt",
-        "intent": "book_appt"
+        "intent": "book_appt",
+        "text": "Schedule appt"
       },
       {
-        "text": "Schedule appointment",
-        "intent": "book_appt"
+        "intent": "book_appt",
+        "text": "Schedule appointment"
       },
       {
-        "text": "Need to book appt",
-        "intent": "book_appt"
+        "intent": "book_appt",
+        "text": "Need to book appt"
       },
       {
-        "text": "Need to book",
-        "intent": "book_appt"
+        "intent": "book_appt",
+        "text": "Need to book"
       },
       {
-        "text": "Need to schedule an appointment",
-        "intent": "book_appt"
+        "intent": "book_appt",
+        "text": "Need to schedule an appointment"
       },
       {
-        "text": "I want to book at 4 pm friday",
-        "intent": "book_appt"
+        "intent": "book_appt",
+        "text": "I want to book at 4 pm friday"
       },
       {
-        "text": "Can I schedule an appointment for 3 pm on wednesday?",
-        "intent": "book_appt"
+        "intent": "book_appt",
+        "text": "Can I schedule an appointment for 3 pm on wednesday?"
       },
       {
-        "text": "Can I come in wednesday at 4 pm for adjustment?",
-        "intent": "book_appt"
+        "intent": "book_appt",
+        "text": "Can I come in wednesday at 4 pm for adjustment?"
       },
       {
-        "text": "I want to come in tuesday at 2 pm for adjustment?",
-        "intent": "book_appt"
+        "intent": "book_appt",
+        "text": "I want to come in tuesday at 2 pm for adjustment?"
       },
       {
-        "text": "Is 4 pm friday available?",
-        "intent": "book_appt"
+        "intent": "book_appt",
+        "text": "Is 4 pm friday available?"
       },
       {
-        "text": "Can I come in wednesday at 2 pm?",
-        "intent": "book_appt"
+        "intent": "book_appt",
+        "text": "Can I come in wednesday at 2 pm?"
       },
       {
-        "text": "Can I come in wednesday at 2 pm?",
-        "intent": "book_appt"
+        "intent": "book_appt",
+        "text": "Can I come in wednesday at 2 pm?"
       },
       {
-        "text": "Can I come in wednesday at 2 pm?",
-        "intent": "book_appt"
+        "intent": "book_appt",
+        "text": "Can I come in wednesday at 2 pm?"
       },
       {
-        "text": "Can I come in wednesday at 2 pm?",
-        "intent": "book_appt"
+        "intent": "book_appt",
+        "text": "Can I come in wednesday at 2 pm?"
       },
       {
-        "text": "Can I come in wednesday at 2 pm?",
-        "intent": "book_appt"
+        "intent": "book_appt",
+        "text": "Can I come in wednesday at 2 pm?"
       },
       {
-        "text": "Can I come in wednesday at 2 pm?",
-        "intent": "book_appt"
+        "intent": "book_appt",
+        "text": "Can I come in wednesday at 2 pm?"
       },
       {
-        "text": "Schedule an appointment for 2 pm on monday",
-        "intent": "book_appt"
+        "intent": "book_appt",
+        "text": "Schedule an appointment for 2 pm on monday"
       },
       {
-        "text": "book appointment",
-        "intent": "book_appt"
+        "intent": "book_appt",
+        "text": "book appointment"
       },
       {
-        "text": "book appt",
-        "intent": "book_appt"
+        "intent": "book_appt",
+        "text": "book appt"
       },
       {
-        "text": "book",
-        "intent": "book_appt"
+        "intent": "book_appt",
+        "text": "book"
       },
       {
-        "text": "schedule appointment",
-        "intent": "book_appt"
+        "intent": "book_appt",
+        "text": "schedule appointment"
       },
       {
-        "text": "schedule appt",
-        "intent": "book_appt"
+        "intent": "book_appt",
+        "text": "schedule appt"
       },
       {
-        "text": "I want to book",
-        "intent": "book_appt"
+        "intent": "book_appt",
+        "text": "I want to book"
       },
       {
-        "text": "I want to book",
-        "intent": "book_appt"
+        "intent": "book_appt",
+        "text": "I want to book"
       },
       {
-        "text": "I want to book",
-        "intent": "book_appt"
+        "intent": "book_appt",
+        "text": "I want to book"
       },
       {
-        "text": "I want to book an appointment",
-        "intent": "book_appt"
+        "intent": "book_appt",
+        "text": "I want to book an appointment"
       },
       {
-        "text": "I want to book appt",
-        "intent": "book_appt"
+        "intent": "book_appt",
+        "text": "I want to book appt"
       },
       {
-        "text": "I want to book appointment",
-        "intent": "book_appt"
+        "intent": "book_appt",
+        "text": "I want to book appointment"
       },
       {
-        "text": "I want to book",
-        "intent": "book_appt"
+        "intent": "book_appt",
+        "text": "I want to book"
       },
       {
-        "text": "Can I come in wednesday at 2 pm?",
-        "intent": "book_appt"
+        "intent": "book_appt",
+        "text": "Can I come in wednesday at 2 pm?"
       },
       {
-        "text": "Can I come in wednesday at 2 pm?",
-        "intent": "book_appt"
+        "intent": "book_appt",
+        "text": "Can I come in wednesday at 2 pm?"
       },
       {
-        "text": "Can I come in wednesday at 2 pm?",
-        "intent": "book_appt"
+        "intent": "book_appt",
+        "text": "Can I come in wednesday at 2 pm?"
       },
       {
-        "text": "I want to book appt on monday at 1 pm",
-        "intent": "book_appt"
+        "intent": "book_appt",
+        "text": "I want to book appt on monday at 1 pm"
       },
       {
-        "text": "I want to book appointment on monday at 2 pm",
-        "intent": "book_appt"
+        "intent": "book_appt",
+        "text": "I want to book appointment on monday at 2 pm"
       },
       {
-        "text": "I would like to book appointment",
-        "intent": "book_appt"
+        "intent": "book_appt",
+        "text": "I would like to book appointment"
       },
       {
-        "text": "I would like to book appt",
-        "intent": "book_appt"
+        "intent": "book_appt",
+        "text": "I would like to book appt"
       },
       {
-        "text": "Need to schedule an appointment",
-        "intent": "book_appt"
+        "intent": "book_appt",
+        "text": "Need to schedule an appointment"
       },
       {
-        "text": "Need to schedule an appointment",
-        "intent": "book_appt"
+        "intent": "book_appt",
+        "text": "Need to schedule an appointment"
       },
       {
-        "text": "Need to schedule an appointment",
-        "intent": "book_appt"
+        "intent": "book_appt",
+        "text": "Need to schedule an appointment"
       },
       {
-        "text": "schedule appointment",
-        "intent": "book_appt"
+        "intent": "book_appt",
+        "text": "schedule appointment"
       },
       {
-        "text": "schedule appointment",
-        "intent": "book_appt"
+        "intent": "book_appt",
+        "text": "schedule appointment"
       },
       {
-        "text": "schedule appointment",
-        "intent": "book_appt"
+        "intent": "book_appt",
+        "text": "schedule appointment"
       },
       {
-        "text": "schedule appointment",
-        "intent": "book_appt"
+        "intent": "book_appt",
+        "text": "schedule appointment"
       },
       {
-        "text": "schedule appointment",
-        "intent": "book_appt"
+        "intent": "book_appt",
+        "text": "schedule appointment"
       },
       {
-        "text": "Change appointment",
-        "intent": "reschedule_appt"
+        "intent": "reschedule_appt",
+        "text": "Change appointment"
       },
       {
-        "text": "Change appt",
-        "intent": "reschedule_appt"
+        "intent": "reschedule_appt",
+        "text": "Change appt"
       },
       {
-        "text": "Need to reschedule",
-        "intent": "reschedule_appt"
+        "intent": "reschedule_appt",
+        "text": "Need to reschedule"
       },
       {
-        "text": "Need to change appt",
-        "intent": "reschedule_appt"
+        "intent": "reschedule_appt",
+        "text": "Need to change appt"
       },
       {
-        "text": "I want to reschedule appointment",
-        "intent": "reschedule_appt"
+        "intent": "reschedule_appt",
+        "text": "I want to reschedule appointment"
       },
       {
-        "text": "Need to reschedule appt",
-        "intent": "reschedule_appt"
+        "intent": "reschedule_appt",
+        "text": "Need to reschedule appt"
       },
       {
-        "text": "I want to reschedule appt",
-        "intent": "reschedule_appt"
+        "intent": "reschedule_appt",
+        "text": "I want to reschedule appt"
       },
       {
-        "text": "Can I reschedule",
-        "intent": "reschedule_appt"
+        "intent": "reschedule_appt",
+        "text": "Can I reschedule"
       },
       {
-        "text": "Can I change my appointment?",
-        "intent": "reschedule_appt"
+        "intent": "reschedule_appt",
+        "text": "Can I change my appointment?"
       },
       {
-        "text": "Can I change my appt",
-        "intent": "reschedule_appt"
+        "intent": "reschedule_appt",
+        "text": "Can I change my appt"
       },
       {
-        "text": "Can I reschedule my appointment to 3 pm on wednesday instead?",
-        "intent": "reschedule_appt"
+        "intent": "reschedule_appt",
+        "text": "Can I reschedule my appointment to 3 pm on wednesday instead?"
       },
       {
-        "text": "Reschedule",
-        "intent": "reschedule_appt"
+        "intent": "reschedule_appt",
+        "text": "Reschedule"
       },
       {
-        "text": "I want to reschedule my appointment for friday at 4 pm",
-        "intent": "reschedule_appt"
+        "intent": "reschedule_appt",
+        "text": "I want to reschedule my appointment for friday at 4 pm"
       },
       {
-        "text": "I want to change my appointment to wednesday at 2 pm",
-        "intent": "reschedule_appt"
+        "intent": "reschedule_appt",
+        "text": "I want to change my appointment to wednesday at 2 pm"
       },
       {
-        "text": "I need to reschedule my upcoming appt",
-        "intent": "reschedule_appt"
+        "intent": "reschedule_appt",
+        "text": "I need to reschedule my upcoming appt"
       },
       {
-        "text": "I want to reschedule my upcoming appointment",
-        "intent": "reschedule_appt"
+        "intent": "reschedule_appt",
+        "text": "I want to reschedule my upcoming appointment"
       },
       {
-        "text": "reschedule",
-        "intent": "reschedule_appt"
+        "intent": "reschedule_appt",
+        "text": "reschedule"
       },
       {
-        "text": "reschedule appointment",
-        "intent": "reschedule_appt"
+        "intent": "reschedule_appt",
+        "text": "reschedule appointment"
       },
       {
-        "text": "Cancel",
-        "intent": "cancel_appt"
+        "intent": "cancel_appt",
+        "text": "Cancel"
       },
       {
-        "text": "Cancel appointment",
-        "intent": "cancel_appt"
+        "intent": "cancel_appt",
+        "text": "Cancel appointment"
       },
       {
-        "text": "Cancel my appointment",
-        "intent": "cancel_appt"
+        "intent": "cancel_appt",
+        "text": "Cancel my appointment"
       },
       {
-        "text": "Cancel appt",
-        "intent": "cancel_appt"
+        "intent": "cancel_appt",
+        "text": "Cancel appt"
       },
       {
-        "text": "Cancel my appt",
-        "intent": "cancel_appt"
+        "intent": "cancel_appt",
+        "text": "Cancel my appt"
       },
       {
-        "text": "Cancel the appointment",
-        "intent": "cancel_appt"
+        "intent": "cancel_appt",
+        "text": "Cancel the appointment"
       },
       {
-        "text": "I want to cancel my appt",
-        "intent": "cancel_appt"
+        "intent": "cancel_appt",
+        "text": "I want to cancel my appt"
       },
       {
-        "text": "maxmeier@firma.de",
-        "intent": "enter_data"
+        "intent": "enter_data",
+        "text": "maxmeier@firma.de"
       },
       {
-        "text": "bot-fan@bots.com",
-        "intent": "enter_data"
+        "intent": "enter_data",
+        "text": "bot-fan@bots.com"
       },
       {
-        "text": "maxmeier@firma.de",
-        "intent": "enter_data"
+        "intent": "enter_data",
+        "text": "maxmeier@firma.de"
       },
       {
-        "text": "bot-fan@bots.com",
-        "intent": "enter_data"
+        "intent": "enter_data",
+        "text": "bot-fan@bots.com"
       },
       {
-        "text": "santaklaus@googlemail.com",
-        "intent": "enter_data"
+        "intent": "enter_data",
+        "text": "santaklaus@googlemail.com"
       },
       {
-        "text": "saswatkarhar@rediffmail.com",
-        "intent": "enter_data"
+        "intent": "enter_data",
+        "text": "saswatkarhar@rediffmail.com"
       },
       {
-        "text": "nerd@stanford.edu",
-        "intent": "enter_data"
+        "intent": "enter_data",
+        "text": "nerd@stanford.edu"
       },
       {
-        "text": "alexander.denker@tu-berlin.de",
-        "intent": "enter_data"
+        "intent": "enter_data",
+        "text": "alexander.denker@tu-berlin.de"
       },
       {
-        "text": "sislawawa@india.com",
-        "intent": "enter_data"
+        "intent": "enter_data",
+        "text": "sislawawa@india.com"
       },
       {
-        "text": "chengming@aliyun.com",
-        "intent": "enter_data"
+        "intent": "enter_data",
+        "text": "chengming@aliyun.com"
       },
       {
-        "text": "solomq122@qq.mail.com",
-        "intent": "enter_data"
+        "intent": "enter_data",
+        "text": "solomq122@qq.mail.com"
       },
       {
+        "intent": "enter_data",
         "entities": [
           {
             "value": "Max Meier",
+            "start": 0,
             "end": 9,
-            "entity": "name",
-            "start": 0
+            "entity": "name"
           }
         ],
-        "text": "Max Meier",
-        "intent": "enter_data"
+        "text": "Max Meier"
       },
       {
+        "intent": "enter_data",
         "entities": [
           {
             "value": "Max Meier",
+            "start": 11,
             "end": 20,
-            "entity": "name",
-            "start": 11
+            "entity": "name"
           }
         ],
-        "text": "My name is Max Meier",
-        "intent": "enter_data"
+        "text": "My name is Max Meier"
       },
       {
+        "intent": "enter_data",
         "entities": [
           {
             "value": "Ralph White",
+            "start": 0,
             "end": 11,
-            "entity": "name",
-            "start": 0
+            "entity": "name"
           }
         ],
-        "text": "Ralph White",
-        "intent": "enter_data"
+        "text": "Ralph White"
       },
       {
+        "intent": "enter_data",
         "entities": [
           {
             "value": "Tom Miller",
+            "start": 4,
             "end": 14,
-            "entity": "name",
-            "start": 4
+            "entity": "name"
           }
         ],
-        "text": "I'm Tom Miller",
-        "intent": "enter_data"
+        "text": "I'm Tom Miller"
       },
       {
+        "intent": "enter_data",
         "entities": [
           {
             "value": "Ann Snyder",
+            "start": 0,
             "end": 10,
-            "entity": "name",
-            "start": 0
+            "entity": "name"
           }
         ],
-        "text": "Ann Snyder",
-        "intent": "enter_data"
+        "text": "Ann Snyder"
       },
       {
+        "intent": "enter_data",
         "entities": [
           {
             "value": "Victoria McMillan",
+            "start": 0,
             "end": 17,
-            "entity": "name",
-            "start": 0
+            "entity": "name"
           }
         ],
-        "text": "Victoria McMillan",
-        "intent": "enter_data"
+        "text": "Victoria McMillan"
       },
       {
+        "intent": "enter_data",
         "entities": [
           {
             "value": "Denise Perry",
+            "start": 0,
             "end": 12,
-            "entity": "name",
-            "start": 0
+            "entity": "name"
           }
         ],
-        "text": "Denise Perry",
-        "intent": "enter_data"
+        "text": "Denise Perry"
       },
       {
+        "intent": "enter_data",
         "entities": [
           {
             "value": "Bob Geldorf",
+            "start": 0,
             "end": 11,
-            "entity": "name",
-            "start": 0
+            "entity": "name"
           }
         ],
-        "text": "Bob Geldorf",
-        "intent": "enter_data"
+        "text": "Bob Geldorf"
       },
       {
+        "intent": "enter_data",
         "entities": [
           {
             "value": "Susan Catterfeld",
+            "start": 0,
             "end": 16,
-            "entity": "name",
-            "start": 0
+            "entity": "name"
           }
         ],
-        "text": "Susan Catterfeld",
-        "intent": "enter_data"
+        "text": "Susan Catterfeld"
       },
       {
+        "intent": "enter_data",
         "entities": [
           {
             "value": "Taylor Shwed",
+            "start": 0,
             "end": 12,
-            "entity": "name",
-            "start": 0
+            "entity": "name"
           }
         ],
-        "text": "Taylor Shwed",
-        "intent": "enter_data"
+        "text": "Taylor Shwed"
       },
       {
+        "intent": "enter_data",
         "entities": [
           {
             "value": "Meredith Grey",
+            "start": 0,
             "end": 13,
-            "entity": "name",
-            "start": 0
+            "entity": "name"
           }
         ],
-        "text": "Meredith Grey",
-        "intent": "enter_data"
+        "text": "Meredith Grey"
       },
       {
+        "intent": "enter_data",
         "entities": [
           {
             "value": "Alex Karev",
+            "start": 0,
             "end": 10,
-            "entity": "name",
-            "start": 0
+            "entity": "name"
           }
         ],
-        "text": "Alex Karev",
-        "intent": "enter_data"
+        "text": "Alex Karev"
       },
       {
-        "text": "Monday",
-        "intent": "enter_data"
+        "intent": "enter_data",
+        "text": "Monday"
       },
       {
-        "text": "tuesday at 2 pm",
-        "intent": "enter_data"
+        "intent": "enter_data",
+        "text": "tuesday at 2 pm"
       },
       {
-        "text": "3 am",
-        "intent": "enter_data"
+        "intent": "enter_data",
+        "text": "3 am"
       },
       {
-        "text": "4 PM",
-        "intent": "enter_data"
+        "intent": "enter_data",
+        "text": "4 PM"
       },
       {
-        "text": "Yes",
-        "intent": "enter_data"
+        "intent": "enter_data",
+        "text": "Yes"
       },
       {
-        "text": "yes",
-        "intent": "enter_data"
+        "intent": "enter_data",
+        "text": "yes"
       },
       {
-        "text": "No",
-        "intent": "enter_data"
+        "intent": "enter_data",
+        "text": "No"
       },
       {
-        "text": "no",
-        "intent": "enter_data"
+        "intent": "enter_data",
+        "text": "no"
       },
       {
-        "text": "March 21",
-        "intent": "enter_data"
+        "intent": "enter_data",
+        "text": "March 21"
       },
       {
-        "text": "januray 20",
-        "intent": "enter_data"
+        "intent": "enter_data",
+        "text": "januray 20"
       }
     ],
     "entity_synonyms": [],
-    "regex_features": []
+    "lookup_tables": []
   }
 }

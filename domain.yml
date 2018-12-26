@@ -5,6 +5,7 @@ intents:
 - deny
 - joke
 - name
+- book_appt
 
 
 entities:
@@ -22,6 +23,7 @@ actions:
 - utter_greet
 - utter_goodbye
 - action_joke
+- utter_bookappt
 
 
 templates:
@@ -36,4 +38,8 @@ templates:
   
   utter_thanks:
   - text: "My pleasure."
+
+  utter_bookappt:
+  - text: "When do want me to schedule your appointment"
+
   

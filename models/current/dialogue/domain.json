@@ -1,5 +1,6 @@
 {
   "states": [
+    "intent_book_appt",
     "intent_deny",
     "intent_goodbye",
     "intent_greet",
@@ -16,6 +17,7 @@
     "prev_utter_thanks",
     "prev_utter_greet",
     "prev_utter_goodbye",
-    "prev_action_joke"
+    "prev_action_joke",
+    "prev_utter_bookappt"
   ]
 }

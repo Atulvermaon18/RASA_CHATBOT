@@ -6,6 +6,7 @@ actions:
 - utter_greet
 - utter_goodbye
 - action_joke
+- utter_bookappt
 config:
   store_entities_as_slots: true
 entities:
@@ -14,13 +15,15 @@ forms: []
 intents:
 - name:
     use_entities: true
-- thanks:
-    use_entities: true
-- deny:
+- joke:
     use_entities: true
 - greet:
     use_entities: true
-- joke:
+- deny:
+    use_entities: true
+- thanks:
+    use_entities: true
+- book_appt:
     use_entities: true
 - goodbye:
     use_entities: true
@@ -30,6 +33,8 @@ slots:
     initial_value: null
     type: rasa_core.slots.TextSlot
 templates:
+  utter_bookappt:
+  - text: When do want me to schedule your appointment
   utter_goodbye:
   - text: Talk to you later!
   utter_greet:
