@@ -1,0 +1,909 @@
+{
+  "rasa_nlu_data": {
+    "lookup_tables": [],
+    "common_examples": [
+      {
+        "text": "Bye",
+        "intent": "bye"
+      },
+      {
+        "text": "Goodbye",
+        "intent": "bye"
+      },
+      {
+        "text": "See you later",
+        "intent": "bye"
+      },
+      {
+        "text": "Bye bot",
+        "intent": "bye"
+      },
+      {
+        "text": "Goodbye friend",
+        "intent": "bye"
+      },
+      {
+        "text": "bye",
+        "intent": "bye"
+      },
+      {
+        "text": "bye for now",
+        "intent": "bye"
+      },
+      {
+        "text": "catch you later",
+        "intent": "bye"
+      },
+      {
+        "text": "gotta go",
+        "intent": "bye"
+      },
+      {
+        "text": "See you",
+        "intent": "bye"
+      },
+      {
+        "text": "goodnight",
+        "intent": "bye"
+      },
+      {
+        "text": "have a nice day",
+        "intent": "bye"
+      },
+      {
+        "text": "i'm off",
+        "intent": "bye"
+      },
+      {
+        "text": "see you later alligator",
+        "intent": "bye"
+      },
+      {
+        "text": "we'll speak soon",
+        "intent": "bye"
+      },
+      {
+        "text": "Hi",
+        "intent": "greet"
+      },
+      {
+        "text": "Hey",
+        "intent": "greet"
+      },
+      {
+        "text": "Hi bot",
+        "intent": "greet"
+      },
+      {
+        "text": "Hey bot",
+        "intent": "greet"
+      },
+      {
+        "text": "Hello",
+        "intent": "greet"
+      },
+      {
+        "text": "Good morning",
+        "intent": "greet"
+      },
+      {
+        "text": "hi again",
+        "intent": "greet"
+      },
+      {
+        "text": "hi folks",
+        "intent": "greet"
+      },
+      {
+        "text": "hi Mister",
+        "intent": "greet"
+      },
+      {
+        "text": "hi pal!",
+        "intent": "greet"
+      },
+      {
+        "text": "hi there",
+        "intent": "greet"
+      },
+      {
+        "text": "greetings",
+        "intent": "greet"
+      },
+      {
+        "text": "hello everybody",
+        "intent": "greet"
+      },
+      {
+        "text": "hello is anybody there",
+        "intent": "greet"
+      },
+      {
+        "text": "hello robot",
+        "intent": "greet"
+      },
+      {
+        "text": "Thanks",
+        "intent": "thank"
+      },
+      {
+        "text": "Thank you",
+        "intent": "thank"
+      },
+      {
+        "text": "Thank you so much",
+        "intent": "thank"
+      },
+      {
+        "text": "Thanks bot",
+        "intent": "thank"
+      },
+      {
+        "text": "Thanks for that",
+        "intent": "thank"
+      },
+      {
+        "text": "cheers",
+        "intent": "thank"
+      },
+      {
+        "text": "cheers bro",
+        "intent": "thank"
+      },
+      {
+        "text": "ok thanks!",
+        "intent": "thank"
+      },
+      {
+        "text": "perfect thank you",
+        "intent": "thank"
+      },
+      {
+        "text": "thanks a bunch for everything",
+        "intent": "thank"
+      },
+      {
+        "text": "thanks for the help",
+        "intent": "thank"
+      },
+      {
+        "text": "thanks a lot",
+        "intent": "thank"
+      },
+      {
+        "text": "amazing, thanks",
+        "intent": "thank"
+      },
+      {
+        "text": "cool, thanks",
+        "intent": "thank"
+      },
+      {
+        "text": "cool thank you",
+        "intent": "thank"
+      },
+      {
+        "text": "yes",
+        "intent": "affirm"
+      },
+      {
+        "text": "yes sure",
+        "intent": "affirm"
+      },
+      {
+        "text": "absolutely",
+        "intent": "affirm"
+      },
+      {
+        "text": "for sure",
+        "intent": "affirm"
+      },
+      {
+        "text": "yes yes yes",
+        "intent": "affirm"
+      },
+      {
+        "text": "definitely",
+        "intent": "affirm"
+      },
+      {
+        "entities": [
+          {
+            "value": "Juste",
+            "end": 16,
+            "entity": "name",
+            "start": 11
+          }
+        ],
+        "text": "My name is Juste",
+        "intent": "name"
+      },
+      {
+        "entities": [
+          {
+            "value": "Josh",
+            "end": 9,
+            "entity": "name",
+            "start": 5
+          }
+        ],
+        "text": "I am Josh",
+        "intent": "name"
+      },
+      {
+        "entities": [
+          {
+            "value": "Lucy",
+            "end": 8,
+            "entity": "name",
+            "start": 4
+          }
+        ],
+        "text": "I'm Lucy",
+        "intent": "name"
+      },
+      {
+        "entities": [
+          {
+            "value": "Greg",
+            "end": 19,
+            "entity": "name",
+            "start": 15
+          }
+        ],
+        "text": "People call me Greg",
+        "intent": "name"
+      },
+      {
+        "entities": [
+          {
+            "value": "David",
+            "end": 10,
+            "entity": "name",
+            "start": 5
+          }
+        ],
+        "text": "It's David",
+        "intent": "name"
+      },
+      {
+        "entities": [
+          {
+            "value": "Amy",
+            "end": 26,
+            "entity": "name",
+            "start": 23
+          }
+        ],
+        "text": "Usually people call me Amy",
+        "intent": "name"
+      },
+      {
+        "entities": [
+          {
+            "value": "John",
+            "end": 15,
+            "entity": "name",
+            "start": 11
+          }
+        ],
+        "text": "My name is John",
+        "intent": "name"
+      },
+      {
+        "entities": [
+          {
+            "value": "Sam",
+            "end": 19,
+            "entity": "name",
+            "start": 16
+          }
+        ],
+        "text": "You can call me Sam",
+        "intent": "name"
+      },
+      {
+        "entities": [
+          {
+            "value": "Linda",
+            "end": 20,
+            "entity": "name",
+            "start": 15
+          }
+        ],
+        "text": "Please call me Linda",
+        "intent": "name"
+      },
+      {
+        "entities": [
+          {
+            "value": "Tom",
+            "end": 16,
+            "entity": "name",
+            "start": 13
+          }
+        ],
+        "text": "Name name is Tom",
+        "intent": "name"
+      },
+      {
+        "entities": [
+          {
+            "value": "Richard",
+            "end": 12,
+            "entity": "name",
+            "start": 5
+          }
+        ],
+        "text": "I am Richard",
+        "intent": "name"
+      },
+      {
+        "entities": [
+          {
+            "value": "Tracy",
+            "end": 9,
+            "entity": "name",
+            "start": 4
+          }
+        ],
+        "text": "I'm Tracy",
+        "intent": "name"
+      },
+      {
+        "entities": [
+          {
+            "value": "Sally",
+            "end": 13,
+            "entity": "name",
+            "start": 8
+          }
+        ],
+        "text": "Call me Sally",
+        "intent": "name"
+      },
+      {
+        "entities": [
+          {
+            "value": "Philipp",
+            "end": 12,
+            "entity": "name",
+            "start": 5
+          }
+        ],
+        "text": "I am Philipp",
+        "intent": "name"
+      },
+      {
+        "entities": [
+          {
+            "value": "Charlie",
+            "end": 12,
+            "entity": "name",
+            "start": 5
+          }
+        ],
+        "text": "I am Charlie",
+        "intent": "name"
+      },
+      {
+        "text": "I want to book",
+        "intent": "book_appt"
+      },
+      {
+        "text": "I want to book",
+        "intent": "book_appt"
+      },
+      {
+        "text": "Book appt",
+        "intent": "book_appt"
+      },
+      {
+        "text": "Schedule appt",
+        "intent": "book_appt"
+      },
+      {
+        "text": "Schedule appointment",
+        "intent": "book_appt"
+      },
+      {
+        "text": "Need to book appt",
+        "intent": "book_appt"
+      },
+      {
+        "text": "Need to book",
+        "intent": "book_appt"
+      },
+      {
+        "text": "Need to schedule an appointment",
+        "intent": "book_appt"
+      },
+      {
+        "text": "I want to book at 4 pm friday",
+        "intent": "book_appt"
+      },
+      {
+        "text": "Can I schedule an appointment for 3 pm on wednesday?",
+        "intent": "book_appt"
+      },
+      {
+        "text": "Can I come in wednesday at 4 pm for adjustment?",
+        "intent": "book_appt"
+      },
+      {
+        "text": "I want to come in tuesday at 2 pm for adjustment?",
+        "intent": "book_appt"
+      },
+      {
+        "text": "Is 4 pm friday available?",
+        "intent": "book_appt"
+      },
+      {
+        "text": "Can I come in wednesday at 2 pm?",
+        "intent": "book_appt"
+      },
+      {
+        "text": "Can I come in wednesday at 2 pm?",
+        "intent": "book_appt"
+      },
+      {
+        "text": "Can I come in wednesday at 2 pm?",
+        "intent": "book_appt"
+      },
+      {
+        "text": "Can I come in wednesday at 2 pm?",
+        "intent": "book_appt"
+      },
+      {
+        "text": "Can I come in wednesday at 2 pm?",
+        "intent": "book_appt"
+      },
+      {
+        "text": "Can I come in wednesday at 2 pm?",
+        "intent": "book_appt"
+      },
+      {
+        "text": "Schedule an appointment for 2 pm on monday",
+        "intent": "book_appt"
+      },
+      {
+        "text": "book appointment",
+        "intent": "book_appt"
+      },
+      {
+        "text": "book appt",
+        "intent": "book_appt"
+      },
+      {
+        "text": "book",
+        "intent": "book_appt"
+      },
+      {
+        "text": "schedule appointment",
+        "intent": "book_appt"
+      },
+      {
+        "text": "schedule appt",
+        "intent": "book_appt"
+      },
+      {
+        "text": "I want to book",
+        "intent": "book_appt"
+      },
+      {
+        "text": "I want to book",
+        "intent": "book_appt"
+      },
+      {
+        "text": "I want to book",
+        "intent": "book_appt"
+      },
+      {
+        "text": "I want to book an appointment",
+        "intent": "book_appt"
+      },
+      {
+        "text": "I want to book appt",
+        "intent": "book_appt"
+      },
+      {
+        "text": "I want to book appointment",
+        "intent": "book_appt"
+      },
+      {
+        "text": "I want to book",
+        "intent": "book_appt"
+      },
+      {
+        "text": "Can I come in wednesday at 2 pm?",
+        "intent": "book_appt"
+      },
+      {
+        "text": "Can I come in wednesday at 2 pm?",
+        "intent": "book_appt"
+      },
+      {
+        "text": "Can I come in wednesday at 2 pm?",
+        "intent": "book_appt"
+      },
+      {
+        "text": "I want to book appt on monday at 1 pm",
+        "intent": "book_appt"
+      },
+      {
+        "text": "I want to book appointment on monday at 2 pm",
+        "intent": "book_appt"
+      },
+      {
+        "text": "I would like to book appointment",
+        "intent": "book_appt"
+      },
+      {
+        "text": "I would like to book appt",
+        "intent": "book_appt"
+      },
+      {
+        "text": "Need to schedule an appointment",
+        "intent": "book_appt"
+      },
+      {
+        "text": "Need to schedule an appointment",
+        "intent": "book_appt"
+      },
+      {
+        "text": "Need to schedule an appointment",
+        "intent": "book_appt"
+      },
+      {
+        "text": "schedule appointment",
+        "intent": "book_appt"
+      },
+      {
+        "text": "schedule appointment",
+        "intent": "book_appt"
+      },
+      {
+        "text": "schedule appointment",
+        "intent": "book_appt"
+      },
+      {
+        "text": "schedule appointment",
+        "intent": "book_appt"
+      },
+      {
+        "text": "schedule appointment",
+        "intent": "book_appt"
+      },
+      {
+        "text": "Change appointment",
+        "intent": "reschedule_appt"
+      },
+      {
+        "text": "Change appt",
+        "intent": "reschedule_appt"
+      },
+      {
+        "text": "Need to reschedule",
+        "intent": "reschedule_appt"
+      },
+      {
+        "text": "Need to change appt",
+        "intent": "reschedule_appt"
+      },
+      {
+        "text": "I want to reschedule appointment",
+        "intent": "reschedule_appt"
+      },
+      {
+        "text": "Need to reschedule appt",
+        "intent": "reschedule_appt"
+      },
+      {
+        "text": "I want to reschedule appt",
+        "intent": "reschedule_appt"
+      },
+      {
+        "text": "Can I reschedule",
+        "intent": "reschedule_appt"
+      },
+      {
+        "text": "Can I change my appointment?",
+        "intent": "reschedule_appt"
+      },
+      {
+        "text": "Can I change my appt",
+        "intent": "reschedule_appt"
+      },
+      {
+        "text": "Can I reschedule my appointment to 3 pm on wednesday instead?",
+        "intent": "reschedule_appt"
+      },
+      {
+        "text": "Reschedule",
+        "intent": "reschedule_appt"
+      },
+      {
+        "text": "I want to reschedule my appointment for friday at 4 pm",
+        "intent": "reschedule_appt"
+      },
+      {
+        "text": "I want to change my appointment to wednesday at 2 pm",
+        "intent": "reschedule_appt"
+      },
+      {
+        "text": "I need to reschedule my upcoming appt",
+        "intent": "reschedule_appt"
+      },
+      {
+        "text": "I want to reschedule my upcoming appointment",
+        "intent": "reschedule_appt"
+      },
+      {
+        "text": "reschedule",
+        "intent": "reschedule_appt"
+      },
+      {
+        "text": "reschedule appointment",
+        "intent": "reschedule_appt"
+      },
+      {
+        "text": "Cancel",
+        "intent": "cancel_appt"
+      },
+      {
+        "text": "Cancel appointment",
+        "intent": "cancel_appt"
+      },
+      {
+        "text": "Cancel my appointment",
+        "intent": "cancel_appt"
+      },
+      {
+        "text": "Cancel appt",
+        "intent": "cancel_appt"
+      },
+      {
+        "text": "Cancel my appt",
+        "intent": "cancel_appt"
+      },
+      {
+        "text": "Cancel the appointment",
+        "intent": "cancel_appt"
+      },
+      {
+        "text": "I want to cancel my appt",
+        "intent": "cancel_appt"
+      },
+      {
+        "text": "maxmeier@firma.de",
+        "intent": "enter_data"
+      },
+      {
+        "text": "bot-fan@bots.com",
+        "intent": "enter_data"
+      },
+      {
+        "text": "maxmeier@firma.de",
+        "intent": "enter_data"
+      },
+      {
+        "text": "bot-fan@bots.com",
+        "intent": "enter_data"
+      },
+      {
+        "text": "santaklaus@googlemail.com",
+        "intent": "enter_data"
+      },
+      {
+        "text": "saswatkarhar@rediffmail.com",
+        "intent": "enter_data"
+      },
+      {
+        "text": "nerd@stanford.edu",
+        "intent": "enter_data"
+      },
+      {
+        "text": "alexander.denker@tu-berlin.de",
+        "intent": "enter_data"
+      },
+      {
+        "text": "sislawawa@india.com",
+        "intent": "enter_data"
+      },
+      {
+        "text": "chengming@aliyun.com",
+        "intent": "enter_data"
+      },
+      {
+        "text": "solomq122@qq.mail.com",
+        "intent": "enter_data"
+      },
+      {
+        "entities": [
+          {
+            "value": "Max Meier",
+            "end": 9,
+            "entity": "name",
+            "start": 0
+          }
+        ],
+        "text": "Max Meier",
+        "intent": "enter_data"
+      },
+      {
+        "entities": [
+          {
+            "value": "Max Meier",
+            "end": 20,
+            "entity": "name",
+            "start": 11
+          }
+        ],
+        "text": "My name is Max Meier",
+        "intent": "enter_data"
+      },
+      {
+        "entities": [
+          {
+            "value": "Ralph White",
+            "end": 11,
+            "entity": "name",
+            "start": 0
+          }
+        ],
+        "text": "Ralph White",
+        "intent": "enter_data"
+      },
+      {
+        "entities": [
+          {
+            "value": "Tom Miller",
+            "end": 14,
+            "entity": "name",
+            "start": 4
+          }
+        ],
+        "text": "I'm Tom Miller",
+        "intent": "enter_data"
+      },
+      {
+        "entities": [
+          {
+            "value": "Ann Snyder",
+            "end": 10,
+            "entity": "name",
+            "start": 0
+          }
+        ],
+        "text": "Ann Snyder",
+        "intent": "enter_data"
+      },
+      {
+        "entities": [
+          {
+            "value": "Victoria McMillan",
+            "end": 17,
+            "entity": "name",
+            "start": 0
+          }
+        ],
+        "text": "Victoria McMillan",
+        "intent": "enter_data"
+      },
+      {
+        "entities": [
+          {
+            "value": "Denise Perry",
+            "end": 12,
+            "entity": "name",
+            "start": 0
+          }
+        ],
+        "text": "Denise Perry",
+        "intent": "enter_data"
+      },
+      {
+        "entities": [
+          {
+            "value": "Bob Geldorf",
+            "end": 11,
+            "entity": "name",
+            "start": 0
+          }
+        ],
+        "text": "Bob Geldorf",
+        "intent": "enter_data"
+      },
+      {
+        "entities": [
+          {
+            "value": "Susan Catterfeld",
+            "end": 16,
+            "entity": "name",
+            "start": 0
+          }
+        ],
+        "text": "Susan Catterfeld",
+        "intent": "enter_data"
+      },
+      {
+        "entities": [
+          {
+            "value": "Taylor Shwed",
+            "end": 12,
+            "entity": "name",
+            "start": 0
+          }
+        ],
+        "text": "Taylor Shwed",
+        "intent": "enter_data"
+      },
+      {
+        "entities": [
+          {
+            "value": "Meredith Grey",
+            "end": 13,
+            "entity": "name",
+            "start": 0
+          }
+        ],
+        "text": "Meredith Grey",
+        "intent": "enter_data"
+      },
+      {
+        "entities": [
+          {
+            "value": "Alex Karev",
+            "end": 10,
+            "entity": "name",
+            "start": 0
+          }
+        ],
+        "text": "Alex Karev",
+        "intent": "enter_data"
+      },
+      {
+        "text": "Monday",
+        "intent": "enter_data"
+      },
+      {
+        "text": "tuesday at 2 pm",
+        "intent": "enter_data"
+      },
+      {
+        "text": "3 am",
+        "intent": "enter_data"
+      },
+      {
+        "text": "4 PM",
+        "intent": "enter_data"
+      },
+      {
+        "text": "Yes",
+        "intent": "enter_data"
+      },
+      {
+        "text": "yes",
+        "intent": "enter_data"
+      },
+      {
+        "text": "No",
+        "intent": "enter_data"
+      },
+      {
+        "text": "no",
+        "intent": "enter_data"
+      },
+      {
+        "text": "March 21",
+        "intent": "enter_data"
+      },
+      {
+        "text": "januray 20",
+        "intent": "enter_data"
+      }
+    ],
+    "entity_synonyms": [],
+    "regex_features": []
+  }
+}
