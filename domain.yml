@@ -6,6 +6,12 @@ intents:
 - joke
 - name
 - book_appt
+- enter_data
+- reschedule_appt
+- cancel_appt
+- affirm
+- buy_policy
+- show_lob
 
 
 entities:
@@ -13,7 +19,9 @@ entities:
 
 
 slots:
-  name:
+  person_name:
+    type: text
+  time:
     type: text
 
 
@@ -24,14 +32,27 @@ actions:
 - utter_goodbye
 - action_joke
 - utter_bookappt
-
+- utter_user_response
+- utter_reschedule_appt
+- utter_cancel_appt
+- utter_affirm
+- utter_bye
+- action_greet
+- ActionGreet
+- action_bye
+- ActionBye
+- action_time_availablity
+- ActionCheckTimeSlots
+- utter_show_lob
+- utter_show_policy
+- utter_confirm_policy
 
 templates:
   utter_name:
   - text: "Hey there! Tell me your name."
 
   utter_greet:
-  - text: "Nice to you meet you {name}. How can I help?"
+  - text: "Nice to you meet you {person_name}. How can I help?"
 
   utter_goodbye:
   - text: "Talk to you later!"
@@ -40,6 +61,30 @@ templates:
   - text: "My pleasure."
 
   utter_bookappt:
-  - text: "When do want me to schedule your appointment"
+  - text: "When do you want me to schedule your appointment"
+
+  utter_bye: 
+  - text: "Have a nice day!"
+
+  utter_user_response:
+  - text: "Let me check for the avaliblity on {time}"
+
+  utter_reschedule_appt:
+  - text:  "When do you want me to re-schedule your appointment"
+
+  utter_cancel_appt:
+  - text: "Are you sure?"
+
+  utter_affirm:
+  - text: "Done !"
+
+  utter_show_lob:
+    - text : "What kind of Insurance you are looking for?"
+
+  utter_show_policy:
+  - text: "We have 3 plan's under this - EXCLUSIVE, CLASSIC, PREMIUM"
+
+  utter_confirm_policy:
+  - text: "Great Chooice {person_name} !!, I'll send you details over mail. Anything else I can help you with?"
 
   

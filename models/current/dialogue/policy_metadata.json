@@ -1,7 +1,7 @@
 {
-  "rasa_core": "0.12.3",
+  "trained_at": "20190222-194218",
   "action_fingerprints": {
-    "utter_greet": {
+    "utter_reschedule_appt": {
       "slots": []
     },
     "utter_thanks": {
@@ -10,30 +10,52 @@
     "utter_goodbye": {
       "slots": []
     },
+    "utter_affirm": {
+      "slots": []
+    },
+    "action_bye": {
+      "slots": []
+    },
     "action_listen": {
       "slots": [
-        "name"
+        "person_name",
+        "time"
       ]
     },
-    "action_joke": {
+    "utter_show_policy": {
+      "slots": []
+    },
+    "action_greet": {
       "slots": []
     },
     "utter_bookappt": {
       "slots": []
     },
+    "utter_show_lob": {
+      "slots": []
+    },
     "utter_name": {
+      "slots": []
+    },
+    "action_time_availablity": {
+      "slots": []
+    },
+    "utter_confirm_policy": {
+      "slots": []
+    },
+    "utter_cancel_appt": {
       "slots": []
     }
   },
+  "rasa_core": "0.12.3",
   "ensemble_name": "rasa_core.policies.ensemble.SimplePolicyEnsemble",
   "max_histories": [
     3,
     3
   ],
-  "trained_at": "20181227-020342",
-  "python": "3.5.6",
   "policy_names": [
     "rasa_core.policies.keras_policy.KerasPolicy",
     "rasa_core.policies.memoization.MemoizationPolicy"
-  ]
+  ],
+  "python": "3.5.6"
 }

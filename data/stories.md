@@ -1,6 +1,7 @@
 ## story_greet <!--- The name of the story. It is not mandatory, but useful for debugging. --> 
-* greet <!--- User input expressed as intent. In this case it represents users message 'Hello'. --> 
- - utter_name <!--- The response of the chatbot expressed as an action. In this case it represents chatbot's response 'Hello, how can I help?' --> 
+* greet
+ - utter_name 
+ 
  
 ## story_goodbye
 * goodbye
@@ -11,29 +12,50 @@
  - utter_thanks
  
 ## story_name
-* name{"name":"Sam"}
- - utter_greet
- 
+* name{"person_name":null} 
+ - action_greet
 
-## story_joke_01
-* joke
- - action_joke
- 
-## story_joke_02
-* greet
- - utter_name
-* name{"name":"Lucy"} <!--- User response with an entity. In this case it represents user message 'My name is Lucy.' --> 
- - utter_greet
-* joke
- - action_joke
-* thanks
- - utter_thanks
-* goodbye
- - utter_goodbye 
 
 ## story_book_appointment
 * book_appt
  - utter_bookappt
+
+ ## story_book_appointment_02
+* book_appt
+ - utter_bookappt
+
+ ## story_user_data
+ * enter_data{"time":null}  
+ - action_time_availablity
+
+## story_bye
+ * bye 
+ - action_bye
+
+## story_reschedule_appt
+* reschedule_appt
+- utter_reschedule_appt
+
+## story_cancel_appt
+* cancel_appt
+- utter_cancel_appt
+
+## story_affirm
+* affirm
+- utter_affirm
+
+## story_show_lob
+* show_lob
+- utter_show_lob
+
+## story_buy_policy
+* buy_policy
+- utter_show_policy
+
+## story_confirm_policy
+* confirm_policy
+- utter_confirm_policy
+
 
 
 

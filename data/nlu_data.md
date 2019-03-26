@@ -1,6 +1,6 @@
 <!--- Make sure to update this training data file with more training examples from https://forum.rasa.com/t/grab-the-nlu-training-dataset-and-starter-packs/903 --> 
 
-## intent:bye <!--- The label of the intent --> 
+## intent:bye
 - Bye 			
 - Goodbye
 - See you later
@@ -61,21 +61,47 @@
 
 
 ## intent:name
-- My name is [Juste](name)  <!--- Square brackets contain the value of entity while the text in parentheses is a a label of the entity --> 
-- I am [Josh](name)
-- I'm [Lucy](name)
-- People call me [Greg](name)
-- It's [David](name)
-- Usually people call me [Amy](name)
-- My name is [John](name)
-- You can call me [Sam](name)
-- Please call me [Linda](name)
-- Name name is [Tom](name)
-- I am [Richard](name)
-- I'm [Tracy](name)
-- Call me [Sally](name)
-- I am [Philipp](name)
-- I am [Charlie](name)
+- My name is [Atul](person_name) 
+- My name is [John](person_name)
+- My name is [Frank](person_name)
+- My name is [Vignesh](person_name)
+- My name is [Dinesh](person_name)
+- My name is [Veera](person_name) 
+- My name is [Srini](person_name)
+- My name is [Renju](person_name)
+- My name is [Karthik](person_name)
+- My name is [Arun](person_name)
+- My name is [Jegan](person_name)
+- My name is [Jagan](person_name)
+- My name is [Siva](person_name)
+- My name is [Gary](person_name)
+- I am [Atul](person_name)
+- I'm [Atul](person_name)
+- People call me [Atul](person_name)
+- It's [Atul](person_name)
+- Usually people call me [Atul](person_name)
+- My name is [Atul](person_name)
+- You can call me [Atul](person_name)
+- Please call me [harish](person_name)
+- Please call me [Srini](person_name)
+- Please call me [nathan](person_name)
+- Please call me [jake](person_name)
+- Please call me [ganesh](person_name)
+- Please call me [siva](person_name)
+- Name name is [Atul](person_name)
+- I am [Atul](person_name)
+- I'm [Atul](person_name)
+- Call me [Renju](person_name)
+- Call me [Jegan](person_name)
+- Call me [Srini](person_name)
+- Call me [Dinesh](person_name)
+- Call me [Vignesh](person_name)
+- Call me [Arun](person_name)
+- Call me [Atul](person_name)
+- Call me [Karthik](person_name)
+- Call me [Arun](person_name)
+- I am [Atul](person_name)
+- I am [Atul](person_name)
 
 ## intent:book_appt
 - I want to book
@@ -92,11 +118,6 @@
 - I want to come in tuesday at 2 pm for adjustment?
 - Is 4 pm friday available?
 - Can I come in wednesday at 2 pm?
-- Can I come in wednesday at 2 pm?
-- Can I come in wednesday at 2 pm?
-- Can I come in wednesday at 2 pm?
-- Can I come in wednesday at 2 pm?
-- Can I come in wednesday at 2 pm?
 - Schedule an appointment for 2 pm on monday
 - book appointment
 - book appt
@@ -104,27 +125,128 @@
 - schedule appointment
 - schedule appt
 - I want to book
-- I want to book
-- I want to book
 - I want to book an appointment
 - I want to book appt
 - I want to book appointment
 - I want to book
-- Can I come in wednesday at 2 pm?
-- Can I come in wednesday at 2 pm?
 - Can I come in wednesday at 2 pm?
 - I want to book appt on monday at 1 pm
 - I want to book appointment on monday at 2 pm
 - I would like to book appointment
 - I would like to book appt
 - Need to schedule an appointment
-- Need to schedule an appointment
-- Need to schedule an appointment
 - schedule appointment
-- schedule appointment
-- schedule appointment
-- schedule appointment
-- schedule appointment
+
+## intent:show_lob
+- I want to buy an Insurance
+- I want to buy an Insurance
+- I want to buy an Insurance
+- I want to buy an Insurance
+- I want to buy an Insurance
+- I need an insurance
+- I need an insurance
+- I need an insurance
+- I need an insurance
+- I need an insurance
+- I need an insurance
+- I am looking for an insurance
+- I am looking for an insurance
+- I am looking for an insurance
+- I am looking for an insurance
+- I am looking for an insurance
+
+## intent:buy_policy
+- I want buy a policy
+- I want buy a policy
+- I want buy a policy
+- I want buy a policy
+- I want buy a policy
+- I want buy a policy
+- I want buy a policy
+- I want buy a policy
+- buy a policy
+- buy a policy
+- buy a policy
+- buy a policy
+- buy a policy
+- buy a policy
+- buy a policy
+- look for a policy
+- look for a policy
+- look for a policy
+- look for a policy
+- look for a policy
+- look for a policy
+- show me a policy
+- show me a policy
+- show me a policy
+- show me a policy
+- show me a policy
+- show me a policy
+- show me a some Insurance policy
+- show me a some Insurance policy
+- show me a some Insurance policy
+- show me a some Insurance policy
+- show me a some Insurance policy
+- show me a some Insurance policy
+- [life] Insurance
+- [life] Insurance
+- [life] Insurance
+- [vehicle] Insurance
+- [vehicle] Insurance
+- [vehicle] Insurance
+- [motor] Insurance
+- [motor] Insurance
+- [motor] Insurance
+- [house] Insurance
+- [life] Insurance
+- [vehicle] Insurance
+- [motor] Insurance
+- [house] Insurance
+- [life] Insurance
+- [vehicle] Insurance
+- [motor] Insurance
+- [house] Insurance
+- [house] Insurance
+- [house] Insurance
+
+##intent:confirm_policy
+- go ahead with [exclusive]
+- go ahead with [exclusive]
+- go ahead with [exclusive]
+- go ahead with [exclusive]
+- i'll go with [exclusive]
+- i'll go with [exclusive]
+- i'll go with [exclusive]
+- i'll go with [exclusive]
+- i'll go with [exclusive]
+- go with [exclusive]
+- go with [exclusive]
+- go with [exclusive]
+- go with [exclusive]
+- go with [exclusive]
+- i will go with [exclusive]
+- go ahead with [CLASSIC]
+- i'll go with [CLASSIC]
+- go with [CLASSIC]
+- i will go with [CLASSIC]
+- go ahead with [CLASSIC]
+- i'll go with [CLASSIC]
+- go with [CLASSIC]
+- i will go with [CLASSIC]
+- go ahead with [CLASSIC]
+- i'll go with [CLASSIC]
+- go with [CLASSIC]
+- i will go with [CLASSIC]
+- go ahead with [PREMIUM]
+- i'll go with [PREMIUM]
+- go with [PREMIUM]
+- i will go with [PREMIUM]
+- go ahead with [EXCLUSIVE]
+- i'll go with [EXCLUSIVE]
+- go with [EXCLUSIVE]
+- i will go with [EXCLUSIVE]
+
 
 
 ## intent:reschedule_appt
@@ -157,36 +279,44 @@
 - I want to cancel my appt
 
 ## intent:enter_data
-- maxmeier@firma.de
-- bot-fan@bots.com
-- maxmeier@firma.de
-- bot-fan@bots.com
-- santaklaus@googlemail.com
-- saswatkarhar@rediffmail.com
-- nerd@stanford.edu
-- alexander.denker@tu-berlin.de
-- sislawawa@india.com
-- chengming@aliyun.com
-- solomq122@qq.mail.com
-- [Max Meier](name)
-- My name is [Max Meier](name)
-- [Ralph White](name)
-- I'm [Tom Miller](name)
-- [Ann Snyder](name)
-- [Victoria McMillan](name)
-- [Denise Perry](name)
-- [Bob Geldorf](name)
-- [Susan Catterfeld](name)
-- [Taylor Shwed](name)
-- [Meredith Grey](name)
-- [Alex Karev](name)
-- Monday
-- tuesday at 2 pm
-- 3 am
-- 4 PM
-- Yes 
-- yes
-- No
-- no
-- March 21
-- januray 20
+- on [Monday](time)
+- on [Tuesday](time)
+- on [Wednesday](time)
+- on [Thrusday](time)
+- on [Friday](time)
+- on [5th](time)
+- on [6th](time)
+- on [7th](time)
+- on [8th](time)
+- on [4th](time)
+- on [1st](time)
+- on [21st](time)
+- on [11th](time)
+- on [2nd](time)
+- on [3rd](time)
+- on [22nd](time)
+- on [23rd](time)
+- on [tuesday at 2 pm](time)
+- at [3am](time)
+- at [4PM](time)
+- at [March 21](time)
+- on [januray 20](time)
+- [Today](time)
+- [Today](time)
+- [Today](time)
+- [Today](time)
+- [Tomorrow] (time)
+- [Tomorrow] (time)
+- [Tomorrow] (time)
+- [Tomorrow] (time)
+- [Tomorrow] 9am(time)
+- [Tomorrow] 10am(time)
+- [Tomorrow] 12am(time)
+- [Tomorrow] 2pm(time)
+- [Tomorrow] 3pm(time)
+- [Tomorrow] 4pm(time)
+- [Monday](time)
+- [Tuesday](time)
+- [Wednesday](time)
+- [Thrusday](time)
+- [Friday](time)

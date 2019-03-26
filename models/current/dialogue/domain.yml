@@ -7,39 +7,86 @@ actions:
 - utter_goodbye
 - action_joke
 - utter_bookappt
+- utter_user_response
+- utter_reschedule_appt
+- utter_cancel_appt
+- utter_affirm
+- utter_bye
+- action_greet
+- ActionGreet
+- action_bye
+- ActionBye
+- action_time_availablity
+- ActionCheckTimeSlots
+- utter_show_lob
+- utter_show_policy
+- utter_confirm_policy
 config:
   store_entities_as_slots: true
 entities:
 - name
 forms: []
 intents:
-- name:
+- book_appt:
     use_entities: true
-- joke:
+- enter_data:
     use_entities: true
-- greet:
-    use_entities: true
-- deny:
+- reschedule_appt:
     use_entities: true
 - thanks:
     use_entities: true
-- book_appt:
+- joke:
+    use_entities: true
+- affirm:
+    use_entities: true
+- cancel_appt:
+    use_entities: true
+- deny:
+    use_entities: true
+- name:
+    use_entities: true
+- greet:
+    use_entities: true
+- buy_policy:
     use_entities: true
 - goodbye:
     use_entities: true
+- show_lob:
+    use_entities: true
 slots:
-  name:
+  person_name:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  time:
     auto_fill: true
     initial_value: null
     type: rasa_core.slots.TextSlot
 templates:
+  utter_affirm:
+  - text: Done !
   utter_bookappt:
-  - text: When do want me to schedule your appointment
+  - text: When do you want me to schedule your appointment
+  utter_bye:
+  - text: Have a nice day!
+  utter_cancel_appt:
+  - text: Are you sure?
+  utter_confirm_policy:
+  - text: Great Chooice {person_name} !!, I'll send you details over mail. Anything
+      else I can help you with?
   utter_goodbye:
   - text: Talk to you later!
   utter_greet:
-  - text: Nice to you meet you {name}. How can I help?
+  - text: Nice to you meet you {person_name}. How can I help?
   utter_name:
   - text: Hey there! Tell me your name.
+  utter_reschedule_appt:
+  - text: When do you want me to re-schedule your appointment
+  utter_show_lob:
+  - text: What kind of Insurance you are looking for?
+  utter_show_policy:
+  - text: We have 3 plan's under this - EXCLUSIVE, CLASSIC, PREMIUM
   utter_thanks:
   - text: My pleasure.
+  utter_user_response:
+  - text: Let me check for the avaliblity on {time}
