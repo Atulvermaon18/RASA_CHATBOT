@@ -1,14 +1,11 @@
 {
     "language": "en",
-    "training_data": "training_data.json",
-    "trained_at": "20190222-194122",
-    "rasa_nlu_version": "0.13.7",
     "pipeline": [
         {
             "name": "nlp_spacy",
-            "class": "rasa_nlu.utils.spacy_utils.SpacyNLP",
+            "case_sensitive": false,
             "model": "en",
-            "case_sensitive": false
+            "class": "rasa_nlu.utils.spacy_utils.SpacyNLP"
         },
         {
             "name": "tokenizer_spacy",
@@ -20,11 +17,12 @@
         },
         {
             "name": "intent_entity_featurizer_regex",
-            "regex_file": "regex_featurizer.json",
-            "class": "rasa_nlu.featurizers.regex_featurizer.RegexFeaturizer"
+            "class": "rasa_nlu.featurizers.regex_featurizer.RegexFeaturizer",
+            "regex_file": "regex_featurizer.json"
         },
         {
-            "L2_c": 0.1,
+            "max_iterations": 50,
+            "classifier_file": "crf_model.pkl",
             "features": [
                 [
                     "low",
@@ -50,12 +48,11 @@
                     "upper"
                 ]
             ],
-            "max_iterations": 50,
-            "BILOU_flag": true,
             "class": "rasa_nlu.extractors.crf_entity_extractor.CRFEntityExtractor",
+            "BILOU_flag": true,
             "name": "ner_crf",
             "L1_c": 0.1,
-            "classifier_file": "crf_model.pkl"
+            "L2_c": 0.1
         },
         {
             "name": "ner_synonyms",
@@ -63,6 +60,8 @@
             "synonyms_file": "entity_synonyms.json"
         },
         {
+            "classifier_file": "intent_classifier_sklearn.pkl",
+            "max_cross_validation_folds": 5,
             "kernels": [
                 "linear"
             ],
@@ -75,13 +74,14 @@
                 20,
                 100
             ],
-            "name": "intent_classifier_sklearn",
-            "classifier_file": "intent_classifier_sklearn.pkl",
-            "scoring_function": "f1_weighted",
-            "max_cross_validation_folds": 5,
             "gamma": [
                 0.1
-            ]
+            ],
+            "scoring_function": "f1_weighted",
+            "name": "intent_classifier_sklearn"
         }
-    ]
+    ],
+    "rasa_nlu_version": "0.13.7",
+    "training_data": "training_data.json",
+    "trained_at": "20190708-191553"
 }

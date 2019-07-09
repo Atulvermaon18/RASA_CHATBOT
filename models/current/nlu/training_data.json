@@ -1,8 +1,7 @@
 {
   "rasa_nlu_data": {
-    "entity_synonyms": [],
-    "lookup_tables": [],
     "regex_features": [],
+    "lookup_tables": [],
     "common_examples": [
       {
         "text": "Bye",
@@ -22,6 +21,22 @@
       },
       {
         "text": "Goodbye friend",
+        "intent": "bye"
+      },
+      {
+        "text": "bye",
+        "intent": "bye"
+      },
+      {
+        "text": "bye",
+        "intent": "bye"
+      },
+      {
+        "text": "bye",
+        "intent": "bye"
+      },
+      {
+        "text": "bye",
         "intent": "bye"
       },
       {
@@ -129,6 +144,42 @@
         "intent": "thank"
       },
       {
+        "text": "Thanks",
+        "intent": "thank"
+      },
+      {
+        "text": "Thanks",
+        "intent": "thank"
+      },
+      {
+        "text": "Thanks",
+        "intent": "thank"
+      },
+      {
+        "text": "Thanks",
+        "intent": "thank"
+      },
+      {
+        "text": "Thank you",
+        "intent": "thank"
+      },
+      {
+        "text": "Thank you",
+        "intent": "thank"
+      },
+      {
+        "text": "Thank you",
+        "intent": "thank"
+      },
+      {
+        "text": "Thank you",
+        "intent": "thank"
+      },
+      {
+        "text": "Thank you",
+        "intent": "thank"
+      },
+      {
         "text": "Thank you",
         "intent": "thank"
       },
@@ -189,6 +240,22 @@
         "intent": "affirm"
       },
       {
+        "text": "yes",
+        "intent": "affirm"
+      },
+      {
+        "text": "yes",
+        "intent": "affirm"
+      },
+      {
+        "text": "yes",
+        "intent": "affirm"
+      },
+      {
+        "text": "yes",
+        "intent": "affirm"
+      },
+      {
         "text": "yes sure",
         "intent": "affirm"
       },
@@ -214,9 +281,9 @@
         "entities": [
           {
             "value": "Atul",
+            "entity": "person_name",
             "end": 15,
-            "start": 11,
-            "entity": "person_name"
+            "start": 11
           }
         ]
       },
@@ -226,9 +293,9 @@
         "entities": [
           {
             "value": "John",
+            "entity": "person_name",
             "end": 15,
-            "start": 11,
-            "entity": "person_name"
+            "start": 11
           }
         ]
       },
@@ -238,9 +305,9 @@
         "entities": [
           {
             "value": "Frank",
+            "entity": "person_name",
             "end": 16,
-            "start": 11,
-            "entity": "person_name"
+            "start": 11
           }
         ]
       },
@@ -250,9 +317,9 @@
         "entities": [
           {
             "value": "Vignesh",
+            "entity": "person_name",
             "end": 18,
-            "start": 11,
-            "entity": "person_name"
+            "start": 11
           }
         ]
       },
@@ -262,9 +329,9 @@
         "entities": [
           {
             "value": "Dinesh",
+            "entity": "person_name",
             "end": 17,
-            "start": 11,
-            "entity": "person_name"
+            "start": 11
           }
         ]
       },
@@ -274,9 +341,9 @@
         "entities": [
           {
             "value": "Veera",
+            "entity": "person_name",
             "end": 16,
-            "start": 11,
-            "entity": "person_name"
+            "start": 11
           }
         ]
       },
@@ -286,9 +353,9 @@
         "entities": [
           {
             "value": "Srini",
+            "entity": "person_name",
             "end": 16,
-            "start": 11,
-            "entity": "person_name"
+            "start": 11
           }
         ]
       },
@@ -298,9 +365,9 @@
         "entities": [
           {
             "value": "Renju",
+            "entity": "person_name",
             "end": 16,
-            "start": 11,
-            "entity": "person_name"
+            "start": 11
           }
         ]
       },
@@ -310,9 +377,9 @@
         "entities": [
           {
             "value": "Karthik",
+            "entity": "person_name",
             "end": 18,
-            "start": 11,
-            "entity": "person_name"
+            "start": 11
           }
         ]
       },
@@ -322,9 +389,9 @@
         "entities": [
           {
             "value": "Arun",
+            "entity": "person_name",
             "end": 15,
-            "start": 11,
-            "entity": "person_name"
+            "start": 11
           }
         ]
       },
@@ -334,9 +401,9 @@
         "entities": [
           {
             "value": "Jegan",
+            "entity": "person_name",
             "end": 16,
-            "start": 11,
-            "entity": "person_name"
+            "start": 11
           }
         ]
       },
@@ -346,9 +413,9 @@
         "entities": [
           {
             "value": "Jagan",
+            "entity": "person_name",
             "end": 16,
-            "start": 11,
-            "entity": "person_name"
+            "start": 11
           }
         ]
       },
@@ -358,9 +425,9 @@
         "entities": [
           {
             "value": "Siva",
+            "entity": "person_name",
             "end": 15,
-            "start": 11,
-            "entity": "person_name"
+            "start": 11
           }
         ]
       },
@@ -370,9 +437,9 @@
         "entities": [
           {
             "value": "Gary",
+            "entity": "person_name",
             "end": 15,
-            "start": 11,
-            "entity": "person_name"
+            "start": 11
           }
         ]
       },
@@ -382,9 +449,9 @@
         "entities": [
           {
             "value": "Atul",
+            "entity": "person_name",
             "end": 9,
-            "start": 5,
-            "entity": "person_name"
+            "start": 5
           }
         ]
       },
@@ -394,9 +461,9 @@
         "entities": [
           {
             "value": "Atul",
+            "entity": "person_name",
             "end": 8,
-            "start": 4,
-            "entity": "person_name"
+            "start": 4
           }
         ]
       },
@@ -406,9 +473,9 @@
         "entities": [
           {
             "value": "Atul",
+            "entity": "person_name",
             "end": 19,
-            "start": 15,
-            "entity": "person_name"
+            "start": 15
           }
         ]
       },
@@ -418,9 +485,9 @@
         "entities": [
           {
             "value": "Atul",
+            "entity": "person_name",
             "end": 9,
-            "start": 5,
-            "entity": "person_name"
+            "start": 5
           }
         ]
       },
@@ -430,9 +497,9 @@
         "entities": [
           {
             "value": "Atul",
+            "entity": "person_name",
             "end": 27,
-            "start": 23,
-            "entity": "person_name"
+            "start": 23
           }
         ]
       },
@@ -442,9 +509,9 @@
         "entities": [
           {
             "value": "Atul",
+            "entity": "person_name",
             "end": 15,
-            "start": 11,
-            "entity": "person_name"
+            "start": 11
           }
         ]
       },
@@ -454,9 +521,9 @@
         "entities": [
           {
             "value": "Atul",
+            "entity": "person_name",
             "end": 20,
-            "start": 16,
-            "entity": "person_name"
+            "start": 16
           }
         ]
       },
@@ -466,9 +533,9 @@
         "entities": [
           {
             "value": "harish",
+            "entity": "person_name",
             "end": 21,
-            "start": 15,
-            "entity": "person_name"
+            "start": 15
           }
         ]
       },
@@ -478,9 +545,9 @@
         "entities": [
           {
             "value": "Srini",
+            "entity": "person_name",
             "end": 20,
-            "start": 15,
-            "entity": "person_name"
+            "start": 15
           }
         ]
       },
@@ -490,9 +557,9 @@
         "entities": [
           {
             "value": "nathan",
+            "entity": "person_name",
             "end": 21,
-            "start": 15,
-            "entity": "person_name"
+            "start": 15
           }
         ]
       },
@@ -502,9 +569,9 @@
         "entities": [
           {
             "value": "jake",
+            "entity": "person_name",
             "end": 19,
-            "start": 15,
-            "entity": "person_name"
+            "start": 15
           }
         ]
       },
@@ -514,9 +581,9 @@
         "entities": [
           {
             "value": "ganesh",
+            "entity": "person_name",
             "end": 21,
-            "start": 15,
-            "entity": "person_name"
+            "start": 15
           }
         ]
       },
@@ -526,9 +593,9 @@
         "entities": [
           {
             "value": "siva",
+            "entity": "person_name",
             "end": 19,
-            "start": 15,
-            "entity": "person_name"
+            "start": 15
           }
         ]
       },
@@ -538,9 +605,9 @@
         "entities": [
           {
             "value": "Atul",
+            "entity": "person_name",
             "end": 17,
-            "start": 13,
-            "entity": "person_name"
+            "start": 13
           }
         ]
       },
@@ -550,9 +617,9 @@
         "entities": [
           {
             "value": "Atul",
+            "entity": "person_name",
             "end": 9,
-            "start": 5,
-            "entity": "person_name"
+            "start": 5
           }
         ]
       },
@@ -562,9 +629,9 @@
         "entities": [
           {
             "value": "Atul",
+            "entity": "person_name",
             "end": 8,
-            "start": 4,
-            "entity": "person_name"
+            "start": 4
           }
         ]
       },
@@ -574,9 +641,9 @@
         "entities": [
           {
             "value": "Renju",
+            "entity": "person_name",
             "end": 13,
-            "start": 8,
-            "entity": "person_name"
+            "start": 8
           }
         ]
       },
@@ -586,9 +653,9 @@
         "entities": [
           {
             "value": "Jegan",
+            "entity": "person_name",
             "end": 13,
-            "start": 8,
-            "entity": "person_name"
+            "start": 8
           }
         ]
       },
@@ -598,9 +665,9 @@
         "entities": [
           {
             "value": "Srini",
+            "entity": "person_name",
             "end": 13,
-            "start": 8,
-            "entity": "person_name"
+            "start": 8
           }
         ]
       },
@@ -610,9 +677,9 @@
         "entities": [
           {
             "value": "Dinesh",
+            "entity": "person_name",
             "end": 14,
-            "start": 8,
-            "entity": "person_name"
+            "start": 8
           }
         ]
       },
@@ -622,9 +689,9 @@
         "entities": [
           {
             "value": "Vignesh",
+            "entity": "person_name",
             "end": 15,
-            "start": 8,
-            "entity": "person_name"
+            "start": 8
           }
         ]
       },
@@ -634,9 +701,9 @@
         "entities": [
           {
             "value": "Arun",
+            "entity": "person_name",
             "end": 12,
-            "start": 8,
-            "entity": "person_name"
+            "start": 8
           }
         ]
       },
@@ -646,9 +713,9 @@
         "entities": [
           {
             "value": "Atul",
+            "entity": "person_name",
             "end": 12,
-            "start": 8,
-            "entity": "person_name"
+            "start": 8
           }
         ]
       },
@@ -658,9 +725,9 @@
         "entities": [
           {
             "value": "Karthik",
+            "entity": "person_name",
             "end": 15,
-            "start": 8,
-            "entity": "person_name"
+            "start": 8
           }
         ]
       },
@@ -670,9 +737,9 @@
         "entities": [
           {
             "value": "Arun",
+            "entity": "person_name",
             "end": 12,
-            "start": 8,
-            "entity": "person_name"
+            "start": 8
           }
         ]
       },
@@ -682,9 +749,9 @@
         "entities": [
           {
             "value": "Atul",
+            "entity": "person_name",
             "end": 9,
-            "start": 5,
-            "entity": "person_name"
+            "start": 5
           }
         ]
       },
@@ -694,9 +761,9 @@
         "entities": [
           {
             "value": "Atul",
+            "entity": "person_name",
             "end": 9,
-            "start": 5,
-            "entity": "person_name"
+            "start": 5
           }
         ]
       },
@@ -766,6 +833,18 @@
       },
       {
         "text": "book appt",
+        "intent": "book_appt"
+      },
+      {
+        "text": "book",
+        "intent": "book_appt"
+      },
+      {
+        "text": "book",
+        "intent": "book_appt"
+      },
+      {
+        "text": "book",
         "intent": "book_appt"
       },
       {
@@ -1350,9 +1429,9 @@
         "entities": [
           {
             "value": "Monday",
+            "entity": "time",
             "end": 9,
-            "start": 3,
-            "entity": "time"
+            "start": 3
           }
         ]
       },
@@ -1362,9 +1441,9 @@
         "entities": [
           {
             "value": "Tuesday",
+            "entity": "time",
             "end": 10,
-            "start": 3,
-            "entity": "time"
+            "start": 3
           }
         ]
       },
@@ -1374,9 +1453,9 @@
         "entities": [
           {
             "value": "Wednesday",
+            "entity": "time",
             "end": 12,
-            "start": 3,
-            "entity": "time"
+            "start": 3
           }
         ]
       },
@@ -1386,9 +1465,9 @@
         "entities": [
           {
             "value": "Thrusday",
+            "entity": "time",
             "end": 11,
-            "start": 3,
-            "entity": "time"
+            "start": 3
           }
         ]
       },
@@ -1398,9 +1477,9 @@
         "entities": [
           {
             "value": "Friday",
+            "entity": "time",
             "end": 9,
-            "start": 3,
-            "entity": "time"
+            "start": 3
           }
         ]
       },
@@ -1410,9 +1489,9 @@
         "entities": [
           {
             "value": "5th",
+            "entity": "time",
             "end": 6,
-            "start": 3,
-            "entity": "time"
+            "start": 3
           }
         ]
       },
@@ -1422,9 +1501,9 @@
         "entities": [
           {
             "value": "6th",
+            "entity": "time",
             "end": 6,
-            "start": 3,
-            "entity": "time"
+            "start": 3
           }
         ]
       },
@@ -1434,9 +1513,9 @@
         "entities": [
           {
             "value": "7th",
+            "entity": "time",
             "end": 6,
-            "start": 3,
-            "entity": "time"
+            "start": 3
           }
         ]
       },
@@ -1446,9 +1525,9 @@
         "entities": [
           {
             "value": "8th",
+            "entity": "time",
             "end": 6,
-            "start": 3,
-            "entity": "time"
+            "start": 3
           }
         ]
       },
@@ -1458,9 +1537,9 @@
         "entities": [
           {
             "value": "4th",
+            "entity": "time",
             "end": 6,
-            "start": 3,
-            "entity": "time"
+            "start": 3
           }
         ]
       },
@@ -1470,9 +1549,9 @@
         "entities": [
           {
             "value": "1st",
+            "entity": "time",
             "end": 6,
-            "start": 3,
-            "entity": "time"
+            "start": 3
           }
         ]
       },
@@ -1482,9 +1561,9 @@
         "entities": [
           {
             "value": "21st",
+            "entity": "time",
             "end": 7,
-            "start": 3,
-            "entity": "time"
+            "start": 3
           }
         ]
       },
@@ -1494,9 +1573,9 @@
         "entities": [
           {
             "value": "11th",
+            "entity": "time",
             "end": 7,
-            "start": 3,
-            "entity": "time"
+            "start": 3
           }
         ]
       },
@@ -1506,9 +1585,9 @@
         "entities": [
           {
             "value": "2nd",
+            "entity": "time",
             "end": 6,
-            "start": 3,
-            "entity": "time"
+            "start": 3
           }
         ]
       },
@@ -1518,9 +1597,9 @@
         "entities": [
           {
             "value": "3rd",
+            "entity": "time",
             "end": 6,
-            "start": 3,
-            "entity": "time"
+            "start": 3
           }
         ]
       },
@@ -1530,9 +1609,9 @@
         "entities": [
           {
             "value": "22nd",
+            "entity": "time",
             "end": 7,
-            "start": 3,
-            "entity": "time"
+            "start": 3
           }
         ]
       },
@@ -1542,9 +1621,9 @@
         "entities": [
           {
             "value": "23rd",
+            "entity": "time",
             "end": 7,
-            "start": 3,
-            "entity": "time"
+            "start": 3
           }
         ]
       },
@@ -1554,9 +1633,9 @@
         "entities": [
           {
             "value": "tuesday at 2 pm",
+            "entity": "time",
             "end": 18,
-            "start": 3,
-            "entity": "time"
+            "start": 3
           }
         ]
       },
@@ -1566,9 +1645,9 @@
         "entities": [
           {
             "value": "3am",
+            "entity": "time",
             "end": 6,
-            "start": 3,
-            "entity": "time"
+            "start": 3
           }
         ]
       },
@@ -1578,9 +1657,9 @@
         "entities": [
           {
             "value": "4PM",
+            "entity": "time",
             "end": 6,
-            "start": 3,
-            "entity": "time"
+            "start": 3
           }
         ]
       },
@@ -1590,9 +1669,9 @@
         "entities": [
           {
             "value": "March 21",
+            "entity": "time",
             "end": 11,
-            "start": 3,
-            "entity": "time"
+            "start": 3
           }
         ]
       },
@@ -1602,9 +1681,9 @@
         "entities": [
           {
             "value": "januray 20",
+            "entity": "time",
             "end": 13,
-            "start": 3,
-            "entity": "time"
+            "start": 3
           }
         ]
       },
@@ -1614,9 +1693,9 @@
         "entities": [
           {
             "value": "Today",
+            "entity": "time",
             "end": 5,
-            "start": 0,
-            "entity": "time"
+            "start": 0
           }
         ]
       },
@@ -1626,9 +1705,9 @@
         "entities": [
           {
             "value": "Today",
+            "entity": "time",
             "end": 5,
-            "start": 0,
-            "entity": "time"
+            "start": 0
           }
         ]
       },
@@ -1638,9 +1717,9 @@
         "entities": [
           {
             "value": "Today",
+            "entity": "time",
             "end": 5,
-            "start": 0,
-            "entity": "time"
+            "start": 0
           }
         ]
       },
@@ -1650,9 +1729,9 @@
         "entities": [
           {
             "value": "Today",
+            "entity": "time",
             "end": 5,
-            "start": 0,
-            "entity": "time"
+            "start": 0
           }
         ]
       },
@@ -1702,9 +1781,9 @@
         "entities": [
           {
             "value": "Monday",
+            "entity": "time",
             "end": 6,
-            "start": 0,
-            "entity": "time"
+            "start": 0
           }
         ]
       },
@@ -1714,9 +1793,9 @@
         "entities": [
           {
             "value": "Tuesday",
+            "entity": "time",
             "end": 7,
-            "start": 0,
-            "entity": "time"
+            "start": 0
           }
         ]
       },
@@ -1726,9 +1805,9 @@
         "entities": [
           {
             "value": "Wednesday",
+            "entity": "time",
             "end": 9,
-            "start": 0,
-            "entity": "time"
+            "start": 0
           }
         ]
       },
@@ -1738,9 +1817,9 @@
         "entities": [
           {
             "value": "Thrusday",
+            "entity": "time",
             "end": 8,
-            "start": 0,
-            "entity": "time"
+            "start": 0
           }
         ]
       },
@@ -1750,12 +1829,13 @@
         "entities": [
           {
             "value": "Friday",
+            "entity": "time",
             "end": 6,
-            "start": 0,
-            "entity": "time"
+            "start": 0
           }
         ]
       }
-    ]
+    ],
+    "entity_synonyms": []
   }
 }

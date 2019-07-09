@@ -21,37 +21,38 @@ actions:
 - utter_show_lob
 - utter_show_policy
 - utter_confirm_policy
+- utter_default
 config:
   store_entities_as_slots: true
 entities:
 - name
 forms: []
 intents:
+- name:
+    use_entities: true
 - book_appt:
-    use_entities: true
-- enter_data:
-    use_entities: true
-- reschedule_appt:
-    use_entities: true
-- thanks:
-    use_entities: true
-- joke:
     use_entities: true
 - affirm:
     use_entities: true
-- cancel_appt:
-    use_entities: true
 - deny:
     use_entities: true
-- name:
-    use_entities: true
-- greet:
+- cancel_appt:
     use_entities: true
 - buy_policy:
     use_entities: true
-- goodbye:
+- thanks:
+    use_entities: true
+- reschedule_appt:
     use_entities: true
 - show_lob:
+    use_entities: true
+- goodbye:
+    use_entities: true
+- enter_data:
+    use_entities: true
+- joke:
+    use_entities: true
+- greet:
     use_entities: true
 slots:
   person_name:
@@ -74,6 +75,8 @@ templates:
   utter_confirm_policy:
   - text: Great Chooice {person_name} !!, I'll send you details over mail. Anything
       else I can help you with?
+  utter_default:
+  - text: I'm Sorry, I didn't get that
   utter_goodbye:
   - text: Talk to you later!
   utter_greet:

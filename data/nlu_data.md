@@ -7,6 +7,10 @@
 - Bye bot
 - Goodbye friend
 - bye
+- bye
+- bye
+- bye
+- bye
 - bye for now
 - catch you later
 - gotta go
@@ -35,11 +39,22 @@
 - hello robot
 
 ## intent:thank
-- Thanks
+- thanks
+- thanks
+- thanks
+- thanks
+- thanks
+- thanks
+- thanks
+- Thank you
+- Thank you
+- Thank you
+- Thank you
+- Thank you
 - Thank you
 - Thank you so much
-- Thanks bot
-- Thanks for that
+- thanks bot
+- thanks for that
 - cheers
 - cheers bro
 - ok thanks!
@@ -53,12 +68,15 @@
 
 ## intent:affirm
 - yes
+- yes
+- yes
+- yes
+- yes
 - yes sure
 - absolutely
 - for sure
 - yes yes yes
 - definitely
-
 
 ## intent:name
 - My name is [Atul](person_name) 
@@ -121,6 +139,9 @@
 - Schedule an appointment for 2 pm on monday
 - book appointment
 - book appt
+- book
+- book
+- book
 - book
 - schedule appointment
 - schedule appt

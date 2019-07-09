@@ -46,6 +46,7 @@ actions:
 - utter_show_lob
 - utter_show_policy
 - utter_confirm_policy
+- utter_default
 
 templates:
   utter_name:
@@ -86,5 +87,8 @@ templates:
 
   utter_confirm_policy:
   - text: "Great Chooice {person_name} !!, I'll send you details over mail. Anything else I can help you with?"
+
+  utter_default:
+  - text: "I'm Sorry, I didn't get that"
 
   

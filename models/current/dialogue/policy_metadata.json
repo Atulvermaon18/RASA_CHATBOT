@@ -1,40 +1,35 @@
 {
-  "trained_at": "20190222-194218",
+  "max_histories": [
+    3,
+    3
+  ],
+  "trained_at": "20190708-191616",
+  "policy_names": [
+    "rasa_core.policies.keras_policy.KerasPolicy",
+    "rasa_core.policies.memoization.MemoizationPolicy"
+  ],
+  "ensemble_name": "rasa_core.policies.ensemble.SimplePolicyEnsemble",
+  "rasa_core": "0.12.3",
   "action_fingerprints": {
-    "utter_reschedule_appt": {
-      "slots": []
-    },
-    "utter_thanks": {
-      "slots": []
-    },
-    "utter_goodbye": {
-      "slots": []
-    },
-    "utter_affirm": {
+    "utter_cancel_appt": {
       "slots": []
     },
     "action_bye": {
       "slots": []
     },
-    "action_listen": {
-      "slots": [
-        "person_name",
-        "time"
-      ]
+    "utter_goodbye": {
+      "slots": []
     },
-    "utter_show_policy": {
+    "utter_thanks": {
       "slots": []
     },
     "action_greet": {
       "slots": []
     },
-    "utter_bookappt": {
+    "utter_affirm": {
       "slots": []
     },
-    "utter_show_lob": {
-      "slots": []
-    },
-    "utter_name": {
+    "utter_show_policy": {
       "slots": []
     },
     "action_time_availablity": {
@@ -43,19 +38,24 @@
     "utter_confirm_policy": {
       "slots": []
     },
-    "utter_cancel_appt": {
+    "utter_show_lob": {
+      "slots": []
+    },
+    "action_listen": {
+      "slots": [
+        "person_name",
+        "time"
+      ]
+    },
+    "utter_name": {
+      "slots": []
+    },
+    "utter_reschedule_appt": {
+      "slots": []
+    },
+    "utter_bookappt": {
       "slots": []
     }
   },
-  "rasa_core": "0.12.3",
-  "ensemble_name": "rasa_core.policies.ensemble.SimplePolicyEnsemble",
-  "max_histories": [
-    3,
-    3
-  ],
-  "policy_names": [
-    "rasa_core.policies.keras_policy.KerasPolicy",
-    "rasa_core.policies.memoization.MemoizationPolicy"
-  ],
   "python": "3.5.6"
 }

@@ -39,6 +39,7 @@
     "prev_ActionCheckTimeSlots",
     "prev_utter_show_lob",
     "prev_utter_show_policy",
-    "prev_utter_confirm_policy"
+    "prev_utter_confirm_policy",
+    "prev_utter_default"
   ]
 }
