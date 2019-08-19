@@ -1,0 +1,29 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<!-- 
+
+<router-outlet></router-outlet> -->
+
+
+
+<mat-card class="example-card">
+  <mat-card-header>
+    <div mat-card-avatar class="example-header-image"></div>
+    <mat-card-title> AI Assistant</mat-card-title>
+    <mat-card-subtitle>Chat Bot</mat-card-subtitle>
+  </mat-card-header>
+  <mat-card-content>
+    <ul>
+      <li [ngClass]="{'me': chat.person==='me', 'him':  chat.person==='him'}"
+        *ngFor="let chat of response;let i=index;">{{chat.msg}}
+      </li>
+    </ul>
+  </mat-card-content>
+  <mat-card-actions>
+    <form [formGroup]="formgroup" (ngSubmit)="onSubmit()">
+      <mat-form-field style="width: 100%;">
+        <input autocomplete="off" matInput placeholder="You Message" formControlName="chatbox">
+      </mat-form-field>
+    </form>
+  </mat-card-actions>
+  <button type="submit" (click)="startSpeech()">Speak</button>
+</mat-card>
